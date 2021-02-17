@@ -1,0 +1,18 @@
+# Ubuntu
+
+ sudo apt install gcc : gcc 설치
+ sudo spt update : 업데이트
+ sudo apt install python : 파이썬 설치 (필요없음)
+ 
+ pwd : 현재 폴더 위치
+ cd : 폴더 이동
+ -> cd ~ : 내 폴더로 이동
+ ls : 파일 종류
+ vim (파일 이름.c) : c 타입 파일 생성 or 파일 이동
+ gcc -o (파일 이름) (파일이름.c) : c 타입 파일 컴파일
+ ./(파일이름)
+
+python3 : 파이썬 이동
+->Ctrl + C : 파이썬 탈출
+vim (파일 이름.py) : 파이썬 타입 파일 생성 or 파일 이동
+python3 (파일이름.py) : 파이썬 타입 파일 컴파일 + 실행
