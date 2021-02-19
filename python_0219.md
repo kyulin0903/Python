@@ -8,7 +8,7 @@ print("\"동해물과 백두산이 마르고 닳도록\"")
 ```
 
 ```
-number = input("정수입력")
+number = input("정수입력 : ")
 
 last_character = number[-1]
 
@@ -28,4 +28,17 @@ if last_number == 1 \
         or last_number == 7 \
         or last_number == 9:
         print("홀수입니다.")
-        ```
+```
+        
+```
+num = input("정수입력 : ")
+
+last_ch = num[-1]
+
+last_num = int(last_ch)
+
+if last_num % 2 == 0:
+        print("짝수입니다.")
+else:
+        print("홀수입니다.")
+```
