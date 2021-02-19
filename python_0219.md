@@ -39,6 +39,16 @@ last_num = int(last_ch)
 
 if last_num % 2 == 0:
         print("짝수입니다.")
-elif:
+else:
         print("홀수입니다.")
+```
+
+```
+score = float(input("학점 입력 : ")
+
+if score == 4.5:
+          print("신")
+elif 4.2 <= score < 4.5:
+          print("교수님의 사랑")
+//집가서 마저 하기
 ```
