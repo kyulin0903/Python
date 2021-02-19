@@ -39,6 +39,6 @@ last_num = int(last_ch)
 
 if last_num % 2 == 0:
         print("짝수입니다.")
-else:
+elif:
         print("홀수입니다.")
 ```
