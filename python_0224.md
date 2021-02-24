@@ -8,7 +8,7 @@ def abs_sign(a): #절대값 함수
   else:
     return -a
 
-def abs_square(a):
+def abs_square(a): #제곱근 함수
   b = a * a
   return math.sqrt(b)
 
@@ -55,6 +55,47 @@ print(a)
 a.clear()
 print("="*20)
 print(a)
+```
+
+```
+def find_max(a):
+  n = len(a)
+  max_v = a[0]
+  for i in range(1, n):
+    if(a[i] > max_v):
+      max_v = a[i]
+  return max_v
+
+v = [17, 92, 18, 33, 58, 7, 33, 42]
+print(find_max(v))
+```
+
+```
+def find_max(a):
+  n = len(a)
+  max_v = a[0]
+  max_p = 0
+  for i in range(1, n):
+    if(a[i] > max_v):
+      max_v = a[i]
+      max_p = i
+  return max_p
+
+v = [17, 92, 18, 33, 58, 7, 33, 42]
+print(find_max(v))
+```
+
+```
+def find_max_idx(a):
+  n = len(a)
+  max_idx = 0
+  for i in range(1, n):
+    if(a[i] > a[max_idx]):
+      max_idx = i
+  return max_idx
+
+v = [17, 92, 18, 33, 58, 7, 33, 42]
+print(find_max_idx(v))
 ```
 
 len(a) : 리스트 길이(자료 개수)를 구함
